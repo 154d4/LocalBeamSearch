@@ -39,7 +39,7 @@ public class Task extends LocalSearch implements Runnable {
 			// If the max doesn't improve for 100 loops -> loop break 
 			if (temp == 100) {
 				System.out.println("Thread break!");
-				count = 2500;
+				count = matrix[0].length/4;
 			}
 		}
 	}
